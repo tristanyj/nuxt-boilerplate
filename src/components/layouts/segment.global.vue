@@ -1,12 +1,12 @@
 <template>
-	<div class="component {{ dashCase name }}">
-		<!-- content -->
+	<div class="component segment">
+		<slot />
 	</div>
 </template>
 
 <style lang="stylus" scoped>
-.component.{{ dashCase name }} {
-
+.component.segment {
+	padding 40px
 }
 </style>
 

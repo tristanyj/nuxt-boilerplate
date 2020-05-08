@@ -1,17 +1,17 @@
 <template>
-	<div class="page {{ dashCase name }}">
+	<div class="page index">
 		<container>
-			<h1>
-				<!-- content -->
+			<h1 class="text-grey-700 text-3xl">
+				Accueil
 			</h1>
 		</container>
 	</div>
 </template>
 
 <style lang="stylus" scoped>
-.page.{{ dashCase name }} {
+	.page.index {
 
-}
+	}
 </style>
 
 <script>
@@ -23,9 +23,9 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Nuxt Boilerplate | {{ titleCase name }}',
+			title: 'Nuxt Boilerplate | Accueil',
 			meta: [
-				{ hid: 'description', name: 'description', content: 'This is a new page' },
+				{ hid: 'description', name: 'description', content: 'This is the homepage' },
 			]
 		}
 	},
@@ -46,3 +46,4 @@ export default {
 	}
 }
 </script>
+

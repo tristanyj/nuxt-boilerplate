@@ -1,12 +1,11 @@
 <template>
-	<div class="component {{ dashCase name }}">
-		<!-- content -->
+	<div class="component wrapper">
+		<slot />
 	</div>
 </template>
 
 <style lang="stylus" scoped>
-.component.{{ dashCase name }} {
-
+.component.wrapper {
 }
 </style>
 
