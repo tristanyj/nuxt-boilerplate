@@ -35,7 +35,6 @@
 	},
 	"devDependencies": {
 		"@aceforth/nuxt-netlify": "^1.0.0",
-		"@aceforth/nuxt-optimized-images": "^1.0.0",
 		"@commitlint/cli": "^8.3.5",
 		"@commitlint/config-conventional": "^8.3.4",
 		"@commitlint/prompt-cli": "^8.3.5",
@@ -53,14 +52,9 @@
 		"eslint-plugin-nuxt": "^0.5.2",
 		"eslint-plugin-vue": "^6.2.2",
 		"husky": "^4.2.5",
-		"imagemin-gifsicle": "^7.0.0",
-		"imagemin-mozjpeg": "^8.0.0",
-		"imagemin-pngquant": "^8.0.0",
-		"imagemin-svgo": "^7.1.0",
 		"nodemon": "^1.11.0",
 		"prettier": "^2.0.5",
 		"standard-version": "^7.1.0",
-		"tailwindcss-dark-mode": "^1.1.4",
-		"webp-loader": "^0.6.0"
+		"tailwindcss-dark-mode": "^1.1.4"
 	}
 }

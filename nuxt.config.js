@@ -89,7 +89,6 @@ const config = async () => {
 		 ** Nuxt.js build modules
 		 */
 		buildModules: [
-			'@aceforth/nuxt-optimized-images',
 			'@aceforth/nuxt-netlify',
 			'@teamnovu/nuxt-breaky',
 			'@nuxtjs/sitemap',
@@ -99,13 +98,6 @@ const config = async () => {
 			'@nuxtjs/global-components',
 			'@nuxtjs/gtm',
 		],
-
-		/*
-		 ** Nuxt.js image optimization configuration
-		 */
-		optimizedImages: {
-			optimizeImages: true
-		},
 
 		/*
 		 ** Netlify headers and redirects
