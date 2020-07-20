@@ -27,7 +27,7 @@
 		"cross-env": "^5.2.0",
 		"dotenv": "^8.2.0",
 		"gsap": "^3.2.6",
-		"lodash": "^4.17.15",
+		"lodash": "^4.17.19",
 		"nuxt": "^2.12.2",
 		"stylus": "^0.54.7",
 		"stylus-loader": "^3.0.2",
